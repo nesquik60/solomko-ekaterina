@@ -1,0 +1,19 @@
+html {
+  ont-size: 16px;
+}
+
+.profile__photo {
+  height: auto;
+  width: 300px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__item {
+  font-size: 2em;
+}
+/*# sourceMappingURL=style.css.map */
