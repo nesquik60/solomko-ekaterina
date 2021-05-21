@@ -73,6 +73,15 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   z-index: 1;
 }
 
@@ -91,7 +100,7 @@ a {
   margin-bottom: 30px;
   background: rgba(255, 255, 255, 0.3);
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 20px;
   -webkit-box-shadow: 0px 1px 5px 1px rgba(136, 122, 122, 0.2);
           box-shadow: 0px 1px 5px 1px rgba(136, 122, 122, 0.2);
   z-index: 2;
@@ -112,39 +121,46 @@ a {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 20px;
   margin: 7px 0 7px 0;
-  padding: 0 10px 0 10px;
-}
-
-.social__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 0 12px 0 12px;
 }
 
 .telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #0088cc;
   font-size: 4em;
 }
 
 .whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #43d854;
   font-size: 4em;
 }
 
-.vk-img {
-  width: 55px;
-  height: 55px;
+.vk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #597da3;
+  font-size: 3.5em;
+}
+
+.instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 4em;
 }
 
 .fa-instagram {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   -webkit-background-clip: text;
-  /* Also define standard property for compatibility */
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 4em;
 }
 /*# sourceMappingURL=style.css.map */
