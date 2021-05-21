@@ -39,6 +39,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  height: 100%;
   background: url(./img/12121min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,17 +131,18 @@ body {
 
 .telegram {
   color: #0088cc;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .whatsapp {
   color: #43d854;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .vk-img {
-  width: 42px;
-  height: 42px;
+  width: 55px;
+  height: 55px;
+  font-size: 4em;
 }
 
 .fa-instagram {
@@ -149,6 +151,6 @@ body {
   /* Also define standard property for compatibility */
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3em;
+  font-size: 4em;
 }
 /*# sourceMappingURL=style.css.map */
