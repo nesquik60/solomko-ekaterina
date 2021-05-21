@@ -13,10 +13,10 @@ html {
 	align-items: center;
 	height: 100vh;
 	width: 100%;
-	&__bg{
-		background: url(./img/12121min.jpg);
-		// background-color: rgb(0, 0, 0);
-		opacity: 0.2;
+	background: url(./img/12121min.jpg);
+	&__bg {
+		backdrop-filter: blur(2px);
+		background-color: rgba(255, 255, 255, 0.5);
 		width: 100%;
 		height: 100%;
 		position: absolute;
@@ -38,28 +38,46 @@ html {
 }
 .social {
 	display: flex;
-	align-items: baseline;
-	justify-content: space-around;
+	align-items: center;
+	justify-content: center;
 	width: 90%;
 	margin-bottom: 30px;
-	// background: rgba(180, 171, 171, 0.2);
-	backdrop-filter: blur(2px);
+	background: rgba(255, 255, 255, 0.3);
 	padding: 5px;
-	border-radius: 10px;
+	border-radius: 15px;
 	box-shadow: 0px 1px 5px 1px rgba(136, 122, 122, 0.2);
 	z-index: 2;
+	&__wrap {
+		display: flex;
+		align-items:center;
+		align-content: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		border-radius: 15px;
+		margin: 7px 0 7px 0;
+		padding: 0 10px 0 10px;
+	}
 	&__item {
-		font-size: 3em;
+		display: flex;
 	}
 }
 .telegram {
 	color: #0088cc;
+	font-size: 3em;
 }
 .whatsapp {
 	color: #43d854;
+	font-size: 3em;
 }
 .vk {
-	color: #45668e;
+
+
+}
+.vk-img{
+	width: 42px;
+	height: 42px;
 }
 .fa-instagram {
 	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
@@ -67,4 +85,5 @@ html {
 	/* Also define standard property for compatibility */
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
+	font-size: 3em;
 }

@@ -25,11 +25,13 @@ html {
           align-items: center;
   height: 100vh;
   width: 100%;
+  background: url(./img/12121min.jpg);
 }
 
 .wrapper__bg {
-  background: url(./img/12121min.jpg);
-  opacity: 0.2;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -60,36 +62,61 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 90%;
   margin-bottom: 30px;
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.3);
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 1px 5px 1px rgba(136, 122, 122, 0.2);
           box-shadow: 0px 1px 5px 1px rgba(136, 122, 122, 0.2);
   z-index: 2;
 }
 
+.social__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 7px 0 7px 0;
+  padding: 0 10px 0 10px;
+}
+
 .social__item {
-  font-size: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .telegram {
   color: #0088cc;
+  font-size: 3em;
 }
 
 .whatsapp {
   color: #43d854;
+  font-size: 3em;
 }
 
-.vk {
-  color: #45668e;
+.vk-img {
+  width: 42px;
+  height: 42px;
 }
 
 .fa-instagram {
@@ -98,5 +125,6 @@ html {
   /* Also define standard property for compatibility */
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 3em;
 }
 /*# sourceMappingURL=style.css.map */
